@@ -1,0 +1,18 @@
+{
+  "latest_round": 1247,
+  "latest_draw_date": "2026-10-24",
+  "model_round": 1247,
+  "built_at_utc": "2026-10-29T05:00:14+00:00",
+  "backtest_first_round": 301,
+  "backtest_round_count": 947,
+  "models": [
+    "logistic",
+    "forest",
+    "freq30",
+    "freq100",
+    "random"
+  ],
+  "training": "첫 300회 확보, 회차 301부터 순차 검증; ML은 100회마다 이전 데이터로만 재학습",
+  "source": "동행복권 공식 사이트 조회 결과 + 최초 사용자 제공 CSV",
+  "added_this_build": 0
+}
